@@ -1,0 +1,58 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif; 
+}
+
+.container {
+    max-width: 1000px;
+    min-width: 320px;
+}
+
+.container button:hover {
+    background-color: #ffffff00;
+    color: #fff;
+}
+
+.container h1 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.card1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card1 button {
+    color: hsl(31, 77%, 52%);
+}
+
+.card2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card2 button {
+    color: hsl(184, 100%, 22%);;
+}
+
+.card3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.card3 button {
+    color: hsl(179, 100%, 13%);;
+}
+
+@media (min-width: 768px) {
+    .card1 {
+        border-radius: 10px 0px 0px 10px;
+    }
+    .card3 {
+        border-radius: 0px 10px 10px 0px; 
+    }
+}
+
+.attribution { color: black; font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
